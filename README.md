@@ -19,7 +19,7 @@ Open `index.py` and find the followings.
 baseUrl = 'https://nyaa.si' # Nyaa base url, change this with nyaa latest url 
 title = ''                  # Anime title
 encoder = ''                # Encoder of the anime
-location = './Dowloads/'    # Download locations
+location = './Downloads/'    # Download locations
 timeOut = 0.5               # Interval between each torrent download
 ```
 
@@ -34,6 +34,7 @@ $ python3 index.py
 ```
 
 ## TODO
+* [ ] Implement resolution selection
 * [ ] Implement crawl on multiple page
 
 ---
